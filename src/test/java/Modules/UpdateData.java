@@ -31,13 +31,13 @@ public class UpdateData {
 
         //Create jsonobject with attributes and send it to the database + assert to verify output
         JSONObject requestParams = new JSONObject();
-        requestParams.put("id",id.get(10));
+        requestParams.put("id",id.get(5));
         requestParams.put("name", "dummyName"); // Cast
         requestParams.put("salary", "dummySalary");
         requestParams.put("age", "dummyAge");
 
         request.body(requestParams.toJSONString());
-        Response response2 = request.put("/update/"+id.get(10));
+        Response response2 = request.put("/update/"+id.get(5));
         System.out.println("Response body: " + response2.body().asString());
         Assert.assertEquals(response2.body().asString(),"{\"name\":\"dummyName\",\"id\":\""+id.get(10)+"\",\"salary\":\"dummySalary\",\"age\":\"dummyAge\"}");
 

@@ -15,6 +15,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -27,13 +30,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/target/test-classes" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\cgivan\IdeaProjects\apiTesting\target\test-classes" />
-      <recent name="C:\Users\cgivan\IdeaProjects\apiTesting\src\test\java" />
-      <recent name="C:\Users\cgivan\IdeaProjects\apiTesting" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\cgivan\IdeaProjects\apiTesting\target\test-classes" />
+      <recent name="C:\Users\cgivan\IdeaProjects\apiTesting" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Ercom\apiTesting\target\test-classes" />
+      <recent name="C:\Users\cgivan\IdeaProjects\apiTesting\target\test-classes" />
+      <recent name="C:\Users\cgivan\IdeaProjects\apiTesting\src\test\java" />
       <recent name="C:\Users\cgivan\IdeaProjects\apiTesting" />
     </key>
   </component>
@@ -49,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.UpdateData">
+  <component name="RunManager" selected="TestNG.CreateData">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="apiTestingRakuten" />
       <option name="VM_PARAMETERS" />
@@ -98,7 +102,7 @@
       </method>
     </configuration>
     <configuration name="CreateData" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="apiTestingRakuten" />
+      <module name="apiTesting" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Modules.*" />
@@ -114,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteData" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="apiTestingRakuten" />
+    <configuration name="Modules" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="apiTesting" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Modules.*" />
@@ -123,8 +127,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Modules" />
-      <option name="MAIN_CLASS_NAME" value="Modules.DeleteData" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
@@ -184,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CreateData" />
+        <item itemvalue="TestNG.Modules" />
         <item itemvalue="TestNG.UpdateData" />
         <item itemvalue="TestNG.RetrieveEmployeeByID" />
         <item itemvalue="TestNG.RetrieveAllEmployees" />
-        <item itemvalue="TestNG.DeleteData" />
-        <item itemvalue="TestNG.CreateData" />
       </list>
     </recent_temporary>
   </component>
@@ -204,5 +207,16 @@
       <updated>1568562270412</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

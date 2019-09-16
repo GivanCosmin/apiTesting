@@ -17,7 +17,7 @@ public class CreateData {
         RequestSpecification request = RestAssured.given();
 
         JSONObject requestParams = new JSONObject();
-        requestParams.put("name", "test_gk_unique"); // Cast
+        requestParams.put("name", "test_gk_unique100"); // Cast
         requestParams.put("salary", "123");
         requestParams.put("age", "23");
 
@@ -25,7 +25,8 @@ public class CreateData {
         request.body(requestParams.toJSONString());
         Response response = request.post("/create");
         System.out.println("Response body: " + response.body().asString());
-        Assert.assertEquals(response.body().asString(),"\"name\":\"test_gk_unique\",\"salary\":\"123\",\"age\":\"23\"");
+        Boolean creationVerification = response.body().asString().contains("\"name\":\"test_gk_unique100\",\"salary\":\"123\",\"age\":\"23\"");
+        Assert.assertTrue(creationVerification);
 
     }
 }
